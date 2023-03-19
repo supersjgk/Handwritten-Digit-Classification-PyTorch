@@ -54,6 +54,7 @@ optimizer=torch.optim.Adam(model.parameters(),lr=learning_rate)
 num_steps=len(train_loader)
 for epoch in range(num_epochs):
 	for i,(image,label) in enumerate(train_loader):
+		#initial shape=[100,1,28,28], here 1 represents 1 color channel. Reshape it to [100,28,28]
 		image=image.reshape(-1,28*28).to(device)
 		label=label.to(device)
 
