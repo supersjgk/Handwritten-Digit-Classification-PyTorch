@@ -3,4 +3,4 @@
 
 Command to run the python file: python mnist.py
 
-To improve accuaracy, experiment with learning rate and other hyperparameters.
+This model has only 2 linear layers. To improve accuaracy, experiment with learning rate and other hyperparameters.
