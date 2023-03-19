@@ -84,5 +84,3 @@ with torch.no_grad():
 		n_correct+=(pred==label).sum().item()
 	accuracy=100.0*n_correct/n_samples
 	print(f'accuracy={accuracy}')
-		
-	
