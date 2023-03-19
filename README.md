@@ -1,6 +1,6 @@
 # Handwritten-Digit-Classification-PyTorch
-# PyTorch implementation of a feed forward neural network to classify handwritten digits from the MNIST dataset
 
 Command to run the python file: python mnist.py
 
-This model has only 2 linear layers. To improve accuaracy, experiment with learning rate and other hyperparameters.
+This model has only 2 linear layers. To improve accuaracy, try using convolutional layers, experiment with learning rate and other hyperparameters.
+Torchvision already has MNIST dataset, but it can also be found here: https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
